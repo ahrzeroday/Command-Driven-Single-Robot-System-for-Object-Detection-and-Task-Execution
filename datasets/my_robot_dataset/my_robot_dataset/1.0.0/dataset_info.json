@@ -1,0 +1,19 @@
+{
+  "fileFormat": "tfrecord",
+  "moduleName": "__main__",
+  "name": "my_robot_dataset",
+  "releaseNotes": {
+    "1.0.0": "Initial release for pick and place."
+  },
+  "splits": [
+    {
+      "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+      "name": "train",
+      "numBytes": "47906240",
+      "shardLengths": [
+        "100"
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}
